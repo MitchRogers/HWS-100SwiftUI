@@ -7,31 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30FA7BEF27CBE53E000CB0AC /* HackingWithSwift_100SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA7BEE27CBE53E000CB0AC /* HackingWithSwift_100SwiftUIApp.swift */; };
-		30FA7BF127CBE53E000CB0AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA7BF027CBE53E000CB0AC /* ContentView.swift */; };
-		30FA7BF327CBE53F000CB0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FA7BF227CBE53F000CB0AC /* Assets.xcassets */; };
-		30FA7BF627CBE53F000CB0AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FA7BF527CBE53F000CB0AC /* Preview Assets.xcassets */; };
+		CF8ED1C82820CC1500AB6545 /* challenge1_hwsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8ED1C72820CC1500AB6545 /* challenge1_hwsApp.swift */; };
+		CF8ED1CA2820CC1500AB6545 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8ED1C92820CC1500AB6545 /* ContentView.swift */; };
+		CF8ED1CC2820CC1600AB6545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8ED1CB2820CC1600AB6545 /* Assets.xcassets */; };
+		CF8ED1CF2820CC1600AB6545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8ED1CE2820CC1600AB6545 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30FA7BEB27CBE53E000CB0AC /* HackingWithSwift-100SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackingWithSwift-100SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30FA7BEE27CBE53E000CB0AC /* HackingWithSwift_100SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackingWithSwift_100SwiftUIApp.swift; sourceTree = "<group>"; };
-		30FA7BF027CBE53E000CB0AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		30FA7BF227CBE53F000CB0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30FA7BF527CBE53F000CB0AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CF40E11127CD99F400F70A98 /* checkpoint_1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11227CD9A0300F70A98 /* checkpoint_2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11327CD9A1900F70A98 /* checkpoint_3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11427CD9A2800F70A98 /* checkpoint_4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11527CD9A3900F70A98 /* checkpoint_5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_5.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11627CD9A4500F70A98 /* checkpoint_6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_6.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11727CD9A5300F70A98 /* checkpoint_7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_7.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11827CEFAF500F70A98 /* checkpoint_8.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_8.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		CF40E11927D15AD900F70A98 /* checkpoint_9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkpoint_9.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CF8ED1C42820CC1500AB6545 /* challenge1-hws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "challenge1-hws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8ED1C72820CC1500AB6545 /* challenge1_hwsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenge1_hwsApp.swift; sourceTree = "<group>"; };
+		CF8ED1C92820CC1500AB6545 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF8ED1CB2820CC1600AB6545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8ED1CE2820CC1600AB6545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30FA7BE827CBE53E000CB0AC /* Frameworks */ = {
+		CF8ED1C12820CC1500AB6545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,102 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30FA7BE227CBE53E000CB0AC = {
+		CF8ED1BB2820CC1500AB6545 = {
 			isa = PBXGroup;
 			children = (
-				30FA7BED27CBE53E000CB0AC /* HackingWithSwift-100SwiftUI */,
-				30FA7BEC27CBE53E000CB0AC /* Products */,
+				CF8ED1C62820CC1500AB6545 /* challenge1-hws */,
+				CF8ED1C52820CC1500AB6545 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30FA7BEC27CBE53E000CB0AC /* Products */ = {
+		CF8ED1C52820CC1500AB6545 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30FA7BEB27CBE53E000CB0AC /* HackingWithSwift-100SwiftUI.app */,
+				CF8ED1C42820CC1500AB6545 /* challenge1-hws.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30FA7BED27CBE53E000CB0AC /* HackingWithSwift-100SwiftUI */ = {
+		CF8ED1C62820CC1500AB6545 /* challenge1-hws */ = {
 			isa = PBXGroup;
 			children = (
-				CF53EA0327EF5A7500C4C007 /* Projects */,
-				CF40E10F27CD997E00F70A98 /* Checkpoints */,
-				30FA7BEE27CBE53E000CB0AC /* HackingWithSwift_100SwiftUIApp.swift */,
-				30FA7BF027CBE53E000CB0AC /* ContentView.swift */,
-				30FA7BF227CBE53F000CB0AC /* Assets.xcassets */,
-				30FA7BF427CBE53F000CB0AC /* Preview Content */,
+				CF8ED1C72820CC1500AB6545 /* challenge1_hwsApp.swift */,
+				CF8ED1C92820CC1500AB6545 /* ContentView.swift */,
+				CF8ED1CB2820CC1600AB6545 /* Assets.xcassets */,
+				CF8ED1CD2820CC1600AB6545 /* Preview Content */,
 			);
-			path = "HackingWithSwift-100SwiftUI";
+			path = "challenge1-hws";
 			sourceTree = "<group>";
 		};
-		30FA7BF427CBE53F000CB0AC /* Preview Content */ = {
+		CF8ED1CD2820CC1600AB6545 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				30FA7BF527CBE53F000CB0AC /* Preview Assets.xcassets */,
+				CF8ED1CE2820CC1600AB6545 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CF40E10F27CD997E00F70A98 /* Checkpoints */ = {
-			isa = PBXGroup;
-			children = (
-				CF40E11127CD99F400F70A98 /* checkpoint_1.playground */,
-				CF40E11227CD9A0300F70A98 /* checkpoint_2.playground */,
-				CF40E11327CD9A1900F70A98 /* checkpoint_3.playground */,
-				CF40E11427CD9A2800F70A98 /* checkpoint_4.playground */,
-				CF40E11527CD9A3900F70A98 /* checkpoint_5.playground */,
-				CF40E11627CD9A4500F70A98 /* checkpoint_6.playground */,
-				CF40E11727CD9A5300F70A98 /* checkpoint_7.playground */,
-				CF40E11827CEFAF500F70A98 /* checkpoint_8.playground */,
-				CF40E11927D15AD900F70A98 /* checkpoint_9.playground */,
-			);
-			path = Checkpoints;
-			sourceTree = "<group>";
-		};
-		CF53EA0327EF5A7500C4C007 /* Projects */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30FA7BEA27CBE53E000CB0AC /* HackingWithSwift-100SwiftUI */ = {
+		CF8ED1C32820CC1500AB6545 /* challenge1-hws */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30FA7BF927CBE53F000CB0AC /* Build configuration list for PBXNativeTarget "HackingWithSwift-100SwiftUI" */;
+			buildConfigurationList = CF8ED1D22820CC1600AB6545 /* Build configuration list for PBXNativeTarget "challenge1-hws" */;
 			buildPhases = (
-				30FA7BE727CBE53E000CB0AC /* Sources */,
-				30FA7BE827CBE53E000CB0AC /* Frameworks */,
-				30FA7BE927CBE53E000CB0AC /* Resources */,
+				CF8ED1C02820CC1500AB6545 /* Sources */,
+				CF8ED1C12820CC1500AB6545 /* Frameworks */,
+				CF8ED1C22820CC1500AB6545 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HackingWithSwift-100SwiftUI";
-			productName = "HackingWithSwift-100SwiftUI";
-			productReference = 30FA7BEB27CBE53E000CB0AC /* HackingWithSwift-100SwiftUI.app */;
+			name = "challenge1-hws";
+			productName = "challenge1-hws";
+			productReference = CF8ED1C42820CC1500AB6545 /* challenge1-hws.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30FA7BE327CBE53E000CB0AC /* Project object */ = {
+		CF8ED1BC2820CC1500AB6545 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					30FA7BEA27CBE53E000CB0AC = {
+					CF8ED1C32820CC1500AB6545 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 30FA7BE627CBE53E000CB0AC /* Build configuration list for PBXProject "HackingWithSwift-100SwiftUI" */;
+			buildConfigurationList = CF8ED1BF2820CC1500AB6545 /* Build configuration list for PBXProject "challenge1-hws" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 30FA7BE227CBE53E000CB0AC;
-			productRefGroup = 30FA7BEC27CBE53E000CB0AC /* Products */;
+			mainGroup = CF8ED1BB2820CC1500AB6545;
+			productRefGroup = CF8ED1C52820CC1500AB6545 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30FA7BEA27CBE53E000CB0AC /* HackingWithSwift-100SwiftUI */,
+				CF8ED1C32820CC1500AB6545 /* challenge1-hws */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30FA7BE927CBE53E000CB0AC /* Resources */ = {
+		CF8ED1C22820CC1500AB6545 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FA7BF627CBE53F000CB0AC /* Preview Assets.xcassets in Resources */,
-				30FA7BF327CBE53F000CB0AC /* Assets.xcassets in Resources */,
+				CF8ED1CF2820CC1600AB6545 /* Preview Assets.xcassets in Resources */,
+				CF8ED1CC2820CC1600AB6545 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30FA7BE727CBE53E000CB0AC /* Sources */ = {
+		CF8ED1C02820CC1500AB6545 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FA7BF127CBE53E000CB0AC /* ContentView.swift in Sources */,
-				30FA7BEF27CBE53E000CB0AC /* HackingWithSwift_100SwiftUIApp.swift in Sources */,
+				CF8ED1CA2820CC1500AB6545 /* ContentView.swift in Sources */,
+				CF8ED1C82820CC1500AB6545 /* challenge1_hwsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		30FA7BF727CBE53F000CB0AC /* Debug */ = {
+		CF8ED1D02820CC1600AB6545 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		30FA7BF827CBE53F000CB0AC /* Release */ = {
+		CF8ED1D12820CC1600AB6545 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,14 +261,14 @@
 			};
 			name = Release;
 		};
-		30FA7BFA27CBE53F000CB0AC /* Debug */ = {
+		CF8ED1D32820CC1600AB6545 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HackingWithSwift-100SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"challenge1-hws/Preview Content\"";
 				DEVELOPMENT_TEAM = Y9WNGWP3CA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -316,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.byu.mrog110.HackingWithSwift-100SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrog110.cs193p.challenge1-hws";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,14 +290,14 @@
 			};
 			name = Debug;
 		};
-		30FA7BFB27CBE53F000CB0AC /* Release */ = {
+		CF8ED1D42820CC1600AB6545 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HackingWithSwift-100SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"challenge1-hws/Preview Content\"";
 				DEVELOPMENT_TEAM = Y9WNGWP3CA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -345,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.byu.mrog110.HackingWithSwift-100SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrog110.cs193p.challenge1-hws";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30FA7BE627CBE53E000CB0AC /* Build configuration list for PBXProject "HackingWithSwift-100SwiftUI" */ = {
+		CF8ED1BF2820CC1500AB6545 /* Build configuration list for PBXProject "challenge1-hws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30FA7BF727CBE53F000CB0AC /* Debug */,
-				30FA7BF827CBE53F000CB0AC /* Release */,
+				CF8ED1D02820CC1600AB6545 /* Debug */,
+				CF8ED1D12820CC1600AB6545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30FA7BF927CBE53F000CB0AC /* Build configuration list for PBXNativeTarget "HackingWithSwift-100SwiftUI" */ = {
+		CF8ED1D22820CC1600AB6545 /* Build configuration list for PBXNativeTarget "challenge1-hws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30FA7BFA27CBE53F000CB0AC /* Debug */,
-				30FA7BFB27CBE53F000CB0AC /* Release */,
+				CF8ED1D32820CC1600AB6545 /* Debug */,
+				CF8ED1D42820CC1600AB6545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30FA7BE327CBE53E000CB0AC /* Project object */;
+	rootObject = CF8ED1BC2820CC1500AB6545 /* Project object */;
 }
