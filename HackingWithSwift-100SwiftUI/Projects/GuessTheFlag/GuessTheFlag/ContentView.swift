@@ -14,6 +14,8 @@ struct ContentView: View {
     @State private var questionCount = 1
     @State private var showingResults = false
     
+    @State private var selectedFlag = -1
+    
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
     
@@ -55,6 +57,9 @@ struct ContentView: View {
                             flagTapped(number)
                         } label: {
                             FlagImage(name: countries[number])
+                                .rotation3DEffect(.degrees(selectedFlag == number ? 360 : 0), axis: (x: 0, y: 1, z: 0))
+                                .opacity(selectedFlag == -1 || selectedFlag == number ? 1 : 0.25)
+                                .blur(radius: selectedFlag == -1 || selectedFlag == number ? 0 : 3)
                         }
                     }
                 }
@@ -87,6 +92,8 @@ struct ContentView: View {
     }
     
     func flagTapped(_ number: Int) {
+        selectedFlag = number
+        
         if number == correctAnswer {
             scoreTitle = "correct!"
             score += 1
@@ -112,6 +119,7 @@ struct ContentView: View {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         questionCount += 1
+        selectedFlag = -1
     }
     
     func newGame() {
